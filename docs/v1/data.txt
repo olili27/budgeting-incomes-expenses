@@ -1,0 +1,11 @@
+Data to be collected/stored
+- date for when the record was entered into the system
+- date for when the record happened/occured
+- expected amount
+- actual amount
+- charges incurred
+- attachments
+- category (income/expense)
+- name of record
+- description
+- label
