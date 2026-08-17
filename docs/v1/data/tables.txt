@@ -1,5 +1,9 @@
 labels: id, name, created_at, updated_at
 
-records: id, name, description, actual amount, expected amount, charges, attachements, category, created_at, transaction_date, transaction_time, updated_at
+records: id, name, description, actual amount, expected amount, charges, category_id, created_at, transaction_date, transaction_time, updated_at
 
 record_labels: record_id, label_id
+
+categories: income, expense
+
+record_attachments: id, record_id, file_name, file_path, created_at, updated_at
