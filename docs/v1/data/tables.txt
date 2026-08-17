@@ -1,0 +1,5 @@
+labels: id, name, created_at, updated_at
+
+records: id, name, description, actual amount, expected amount, charges, attachements, category, created_at, transaction_date, transaction_time, updated_at
+
+record_labels: record_id, label_id
