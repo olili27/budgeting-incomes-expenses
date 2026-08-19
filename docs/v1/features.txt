@@ -1,0 +1,7 @@
+- store an expense/income
+- get a stored income/expense
+- get stored incomes/expenses
+- update an expense/income
+- group retrieved expenses/incomes
+- provide a summary of incomes/expenses
+- group incomes/expenses
