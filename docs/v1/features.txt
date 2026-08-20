@@ -5,3 +5,82 @@
 - group retrieved expenses/incomes
 - provide a summary of incomes/expenses
 - group incomes/expenses
+- Store supporting attachments such as receipts or documents
+- Compare expected amounts against actual amounts
+- Track transaction dates and times
+- Analyze the financial impact of recorded transactions
+
+-------------------------------------------------------------------------------------------------
+
+                    ┌──────────────────────────────────────┐
+                    │     Financial Tracking System         │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Record Income                │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Record Expenditure            │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Categorize Transaction        │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Add Labels                    │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Attach Supporting Documents   │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Track Expected vs Actual      │    │
+                    │  │ Financial Impact              │    │
+                    │  └──────────────────────────────┘    │
+                    │                                      │
+                    │  ┌──────────────────────────────┐    │
+                    │  │ Analyze Financial Impact      │    │
+                    │  └──────────────────────────────┘    │
+                    └──────────────────────────────────────┘
+                              │
+                              │
+                           ───┴───
+                          │ User │
+                           ───────
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+                         User
+                          │
+             ┌────────────┼─────────────┐
+             │            │             │
+             ▼            ▼             ▼
+      Record Transaction  Manage      Analyze
+             │            Labels       Financial
+             │                         Impact
+             │
+        ┌────┴────┐
+        ▼         ▼
+      Income    Expense
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                    ┌───────────────────────────────┐
+                    │   Financial Tracking System   │
+                    │                               │
+User ──────────────►│  Record Transaction            │
+                    │       │                       │
+                    │       ├── Categorize           │
+                    │       ├── Add Labels            │
+                    │       ├── Add Attachments       │
+                    │       └── Record Expected/      │
+                    │           Actual Amount        │
+                    │                               │
+User ──────────────►│  Analyze Financial Impact      │
+                    │                               │
+User ──────────────►│  Manage Labels                 │
+                    └───────────────────────────────┘
+
