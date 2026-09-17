@@ -8,6 +8,7 @@ import lombok.Data;
 @Data
 public class RecordLabel {
 
+    @EmbeddedId
     private RecordLabelId id;
 
     @ManyToOne
