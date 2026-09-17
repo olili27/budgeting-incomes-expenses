@@ -34,10 +34,10 @@ public class Record {
     private BigDecimal actualAmount;
 
     @Column(name = "expected_amount", precision = 15, scale = 2)
-    private Long expectedAmount;
+    private BigDecimal expectedAmount;
 
     @Column(name = "charges", precision = 15, scale = 2)
-    private Long charge;
+    private BigDecimal charge;
 
     @NotNull
     @ManyToOne
