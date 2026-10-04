@@ -32,5 +32,5 @@ public class Label {
     private LocalDateTime updatedAt;
 
     @Column(name = "is_deleted", nullable = false)
-    private Boolean isDeleted;
+    private Boolean isDeleted = false;
 }
