@@ -2,9 +2,8 @@ package com.thy.minimalist.budgetingIncomesExpenses.controller;
 
 import com.thy.minimalist.budgetingIncomesExpenses.model.Label;
 import com.thy.minimalist.budgetingIncomesExpenses.service.interfaces.LabelService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import jakarta.validation.Valid;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -21,5 +20,10 @@ public class LabelController {
     @GetMapping
     public List<Label> getAllLabels() {
         return  labelService.getAllLabels();
+    }
+
+    @PostMapping
+    public Label createNewLabel(@Valid @RequestBody Label label) {
+        return labelService.createNewLabel(label);
     }
 }

@@ -18,4 +18,9 @@ public class LabelServiceImpl implements LabelService{
     public List<Label> getAllLabels() {
         return  labelRepository.findAll();
     }
+
+    @Override
+    public Label createNewLabel(Label label) {
+        return labelRepository.save(label);
+    }
 }

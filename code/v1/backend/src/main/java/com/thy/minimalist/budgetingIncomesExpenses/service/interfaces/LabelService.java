@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface LabelService {
     List<Label> getAllLabels();
+
+    Label createNewLabel(Label label);
 }
